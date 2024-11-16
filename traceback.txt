@@ -1,30 +1,30 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 23, in script
-    with fade(10)
-TypeError: 'MultipleTransition' object is not callable
+  File "game/init.rpy", line 7, in script
+    image gg_calm1 = At("", sprite_highlight("gg_sprite"))
+  File "game/init.rpy", line 7, in <module>
+    image gg_calm1 = At("", sprite_highlight("gg_sprite"))
+Exception: An empty string cannot be used as a displayable.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 23, in script
-    with fade(10)
-  File "C:\Users\user\OneDrive\Рабочий стол\renpy-8.3.2-sdk\renpy\ast.py", line 1361, in execute
-    renpy.exports.with_statement(trans, paired=paired)
-  File "C:\Users\user\OneDrive\Рабочий стол\renpy-8.3.2-sdk\renpy\exports\statementexports.py", line 257, in with_statement
-    return renpy.game.interface.do_with(trans, paired, clear=clear)
-  File "C:\Users\user\OneDrive\Рабочий стол\renpy-8.3.2-sdk\renpy\display\core.py", line 1578, in do_with
-    return self.interact(trans_pause=True,
-  File "C:\Users\user\OneDrive\Рабочий стол\renpy-8.3.2-sdk\renpy\display\core.py", line 2215, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
-  File "C:\Users\user\OneDrive\Рабочий стол\renpy-8.3.2-sdk\renpy\display\core.py", line 2666, in interact_core
-    trans = instantiate_transition(None, old_root, layers_root)
-  File "C:\Users\user\OneDrive\Рабочий стол\renpy-8.3.2-sdk\renpy\display\core.py", line 2575, in instantiate_transition
-    trans = self.ongoing_transition[layer](
-TypeError: 'MultipleTransition' object is not callable
+  File "game/init.rpy", line 7, in script
+    image gg_calm1 = At("", sprite_highlight("gg_sprite"))
+  File "C:\Users\3loyK\RenPy\renpy-8.3.2-sdk\renpy\ast.py", line 920, in execute
+    img = renpy.python.py_eval_bytecode(self.code.bytecode)
+  File "C:\Users\3loyK\RenPy\renpy-8.3.2-sdk\renpy\python.py", line 1202, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/init.rpy", line 7, in <module>
+    image gg_calm1 = At("", sprite_highlight("gg_sprite"))
+  File "C:\Users\3loyK\RenPy\renpy-8.3.2-sdk\renpy\defaultstore.py", line 338, in At
+    rv = renpy.easy.displayable(d)
+  File "C:\Users\3loyK\RenPy\renpy-8.3.2-sdk\renpy\easy.py", line 117, in displayable
+    raise Exception("An empty string cannot be used as a displayable.")
+Exception: An empty string cannot be used as a displayable.
 
-Windows-10-10.0.22631 AMD64
+Windows-10-10.0.19045 AMD64
 Ren'Py 8.3.2.24090902
 UrFU_novel 1.0
-Sat Nov  9 16:40:01 2024
+Sat Nov 16 19:54:40 2024
