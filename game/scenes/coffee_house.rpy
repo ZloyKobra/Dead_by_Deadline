@@ -5,5 +5,6 @@ label coffee_house:
     scene bg white_space
     voice "audio/sounds/bzzzzzzzzzzzzzzzzzzzzzz.mp3"
     ""
+    "А я говорил, что не закончено"
     jump seeking_for_team
     return

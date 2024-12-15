@@ -1302,34 +1302,40 @@ style notify_text:
 
 screen nvl(dialogue, items=None):
 
-    window:
-        style "nvl_window"
+    #### ADD THIS TO MAKE THE PHONE WORK!! :) ###
+    if nvl_mode == "phone":
+        use PhoneDialogue(dialogue, items)
+    else:
+    ####
+    ## Indent the rest of the screen
+        window:
+            style "nvl_window"
 
-        has vbox:
-            spacing gui.nvl_spacing
+            has vbox:
+                spacing gui.nvl_spacing
 
-        ## Показывает диалог или в vpgrid, или в vbox.
-        if gui.nvl_height:
+            ## Displays dialogue in either a vpgrid or the vbox.
+            if gui.nvl_height:
 
-            vpgrid:
-                cols 1
-                yinitial 1.0
+                vpgrid:
+                    cols 1
+                    yinitial 1.0
+
+                    use nvl_dialogue(dialogue)
+
+            else:
 
                 use nvl_dialogue(dialogue)
 
-        else:
+            ## Displays the menu, if given. The menu may be displayed incorrectly if
+            ## config.narrator_menu is set to True, as it is above.
+            for i in items:
 
-            use nvl_dialogue(dialogue)
+                textbutton i.caption:
+                    action i.action
+                    style "nvl_button"
 
-        ## Показывает меню, если есть. Меню может показываться некорректно, если
-        ## config.narrator_menu установлено на True.
-        for i in items:
-
-            textbutton i.caption:
-                action i.action
-                style "nvl_button"
-
-    add SideImage() xalign 0.0 yalign 1.0
+        add SideImage() xalign 0.0 yalign 1.0
 
 
 screen nvl_dialogue(dialogue):
@@ -1609,3 +1615,63 @@ style slider_vbox:
 style slider_slider:
     variant "small"
     xsize 900
+
+
+
+
+# #кнопка
+# screen button_book:
+#     imagebutton :
+#         idle "note_book_icon"
+#         hover "note_book_icon"
+#         action ui.callsinnewcontext("afq_screen_label")
+#         xalign 0.02 ypos 94
+
+# #первый экран
+# screen afq_screen:
+#     frame:
+#         background "gui/note_book_icon.png" # фон
+#         has vbox:
+#             spacing 15
+
+#     viewport:
+#         xalign 0.07 ypos 130 xysize (250, 500)
+#         child_size (1000, None)
+#         scrollbars "vertical"
+#         spacing 5
+#         draggable True
+#         mousewheel True
+#         arrowkeys True
+
+#         vbox:
+#             label "Потрепаная терадь"
+#             label "{color=#000000}{size=-5}........................{/size}{/color}"
+#             label "{size=-5}Верхний мир{/size}"
+#             label "{color=#000000}{size=-5}.............................{/size}{/color}"
+#             label "{size=-5}Легенды{/size}"
+#             textbutton "Великая Война" action Show("article_12")
+
+# label afq_screen_label:
+#     call screen afq_screen
+#     return
+
+# #второй экран
+
+# screen article_12:
+#     tag article
+#     frame:
+#         background "gui/note_book_icon.png" # фон
+#         has vbox:
+#             spacing 15
+#     viewport:
+#         xalign 0.6 ypos 130 xysize (400, 500)
+#         child_size (1000, None)
+#         scrollbars "vertical"
+#         spacing 5
+#         draggable True
+#         mousewheel True
+#         arrowkeys True
+#         vbox:
+#             xalign 0.8 ypos 0.2
+#             text "{color=#653bcf}{size=+10}Великая Война{/size}{/color}  "
+#             text "{color=#000000}{size=-4} ваш текст {/size}{/color}  "

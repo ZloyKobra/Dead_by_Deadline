@@ -2,9 +2,17 @@
 errors listed below, and try again.
 
 
-File "game/scenes/talking_on_the_street.rpy", line 10: expected statement.
-    seva: "Спасибо!"
-        ^
+The label street is defined twice, at File "game/scenes/street.rpyc", line 4:
+
+and File "game/scenes/talking_on_the_street.rpy", line 1:
+label street:
+
+
+The label skip_human is defined twice, at File "game/scenes/skip_human.rpyc", line 1:
+
+and File "game/scenes/talking_on_the_street.rpy", line 19:
+label skip_human:
+
 
 Ren'Py Version: Ren'Py 8.3.2.24090902
-Sat Nov 16 20:30:44 2024
+Sat Dec 14 14:47:18 2024

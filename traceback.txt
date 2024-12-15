@@ -1,30 +1,26 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/init.rpy", line 7, in script
-    image gg_calm1 = At("", sprite_highlight("gg_sprite"))
-  File "game/init.rpy", line 7, in <module>
-    image gg_calm1 = At("", sprite_highlight("gg_sprite"))
-Exception: An empty string cannot be used as a displayable.
+  File "game/script.rpy", line 3, in script
+    $ gg_sex = renpy.input("Кого пола будет ваш персонаж?\nВеедите М или Ж\n").Upper()
+  File "game/script.rpy", line 3, in <module>
+    $ gg_sex = renpy.input("Кого пола будет ваш персонаж?\nВеедите М или Ж\n").Upper()
+AttributeError: 'str' object has no attribute 'Upper'
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/init.rpy", line 7, in script
-    image gg_calm1 = At("", sprite_highlight("gg_sprite"))
-  File "C:\Users\3loyK\RenPy\renpy-8.3.2-sdk\renpy\ast.py", line 920, in execute
-    img = renpy.python.py_eval_bytecode(self.code.bytecode)
-  File "C:\Users\3loyK\RenPy\renpy-8.3.2-sdk\renpy\python.py", line 1202, in py_eval_bytecode
-    return eval(bytecode, globals, locals)
-  File "game/init.rpy", line 7, in <module>
-    image gg_calm1 = At("", sprite_highlight("gg_sprite"))
-  File "C:\Users\3loyK\RenPy\renpy-8.3.2-sdk\renpy\defaultstore.py", line 338, in At
-    rv = renpy.easy.displayable(d)
-  File "C:\Users\3loyK\RenPy\renpy-8.3.2-sdk\renpy\easy.py", line 117, in displayable
-    raise Exception("An empty string cannot be used as a displayable.")
-Exception: An empty string cannot be used as a displayable.
+  File "game/script.rpy", line 3, in script
+    $ gg_sex = renpy.input("Кого пола будет ваш персонаж?\nВеедите М или Ж\n").Upper()
+  File "C:\Users\user\OneDrive\Рабочий стол\renpy-8.3.2-sdk\renpy\ast.py", line 821, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\user\OneDrive\Рабочий стол\renpy-8.3.2-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/script.rpy", line 3, in <module>
+    $ gg_sex = renpy.input("Кого пола будет ваш персонаж?\nВеедите М или Ж\n").Upper()
+AttributeError: 'str' object has no attribute 'Upper'
 
-Windows-10-10.0.19045 AMD64
+Windows-10-10.0.22631 AMD64
 Ren'Py 8.3.2.24090902
-UrFU_novel 1.0
-Sat Nov 16 19:54:40 2024
+Dead by Deadline 
+Sat Dec  7 16:05:32 2024
