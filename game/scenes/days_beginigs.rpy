@@ -48,3 +48,10 @@ label day_4_begin:
     scene bg day_4
     pause 5.0
     jump big_scene_3
+
+label day_5_begin:
+    pause 1.0
+    play sound "audio/sounds/day_begining.mp3"
+    scene bg day_5
+    pause 5.0
+    jump big_scene_almost_last_1

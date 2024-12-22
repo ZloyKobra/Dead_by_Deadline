@@ -2,17 +2,29 @@
 errors listed below, and try again.
 
 
-The label street is defined twice, at File "game/scenes/street.rpyc", line 4:
+File "game/scenes/green_scenes.rpy", line 177: expected statement.
+                    ЭПИЛОГ
+                          ^
 
-and File "game/scenes/talking_on_the_street.rpy", line 1:
-label street:
+File "game/scenes/green_scenes.rpy", line 179: expected statement.
+    (Ты не забрасываешь разработку видеоигр, а продолжаешь учиться и делать что-то новое.)
+                                                                                          ^
 
+File "game/scenes/green_scenes.rpy", line 181: expected statement.
+    (Проходит год самообучения и разработки разносортных инди-игр, которые ты делал в процессе обучения.)
+                                                                                                         ^
 
-The label skip_human is defined twice, at File "game/scenes/skip_human.rpyc", line 1:
+File "game/scenes/green_scenes.rpy", line 183: expected statement.
+    (Со всем этим багажом ты устраиваешься в другую, менее известную компанию, где разрабатывают видеоигры, но тебе там действительно нравится: хороший коллектив, уютный офис, хорошие условия для разработки.)
+                                                                                                                                                                                                                ^
 
-and File "game/scenes/talking_on_the_street.rpy", line 19:
-label skip_human:
+File "game/scenes/green_scenes.rpy", line 185: expected statement.
+    (Проходит время, и ты видишь, как Компания, в которую тебя не приняли в первый раз выпускает игру под названием Mecha Strike, где полностью копируют когда-то придуманный тобой концепт.)
+                                                                                                                                                                                             ^
 
+File "game/scenes/green_scenes.rpy", line 187: expected statement.
+                     К О Н Е Ц
+                              ^
 
 Ren'Py Version: Ren'Py 8.3.2.24090902
-Sat Dec 14 14:47:18 2024
+Sun Dec 22 17:42:23 2024
