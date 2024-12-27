@@ -23,7 +23,7 @@ init python:
 label credits:
     scene bg end with fade
     pause 5
-    scene black with dissolve
-    show text my_credits at txt_up
-    pause 15
+    # scene black with dissolve
+    # show text my_credits at txt_up
+    # pause 15
     return

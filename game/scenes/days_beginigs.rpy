@@ -23,7 +23,7 @@ label day_2_begin:
             "Ты берёщь телефон в руку"
             stop music fadeout 2.0
             "16:00"
-            show gg shock
+            show gg shock_
             maincharacter "СКОЛЬКО?!"
             maincharacter "КАК Я МОГ ПРОСПАТЬ ПОЛДНЯ, КОГДА У МЕНЯ РАЗРАБОТКА ВИДЕОИГРЫ НА НОСУ, ЧЁРТ ПОДЕРИ!!!"
             show gg calm2

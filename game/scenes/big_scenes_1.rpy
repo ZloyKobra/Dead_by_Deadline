@@ -2,28 +2,16 @@ label big_scene_1:
     scene bg ggroom_bright
     show gg calm1
     with fade
+    play music Holy_Moly_Mountain fadeout 1.0   
     if game_choice == "blue":
         jump blue_scene_1
-    if game_choice == "pink" or game_choice == "violet":
+    if game_choice == "violet":
         scene bg ggroom_bright
-        show gg calm1
-        play music Holy_Moly_Mountain        
+        show gg calm1       
         "Очередной день. Кажется, ты уже начинаешь уставать. Но не время унывать! Игра уже считай готова, нужны лишь спрайты и уровни."
         "Начнём со спрайтов, текстур, дизайна."
-        "Итак, можно взять спрайты из интернета или попробовать нарисовать всё самим."
-        "Откуда возьмёшь спрайты?"
-        menu:
-            "Из интернета":
-                if game_choice == "pink":
-                    jump pink_scene_1
-                else:
-                    jump violet_scene_1
-            "Сделаю сам":
-                if game_choice == "pink":
-                    jump pink_scene_1
-                else:
-                    jump violet_scene_1
-
+        "Итак, чтобы не терять время, ты решаешь взять спрайты из интернета."
+        jump violet_scene_1
     elif game_choice == "salat":
         jump salat_scene_1
     elif game_choice == "green":
@@ -55,8 +43,6 @@ label big_scene_2:
     show gg calm2
     if game_choice == "blue":
         jump blue_scene_2
-    elif game_choice == "pink":
-        jump pink_scene_2
     elif game_choice == "violet":
         jump violet_scene_2
     elif game_choice == "salat":
@@ -69,7 +55,7 @@ label big_scene_2:
 
 label big_scene_3:
     scene bg ggroom_bright
-    show gg calm1
+    show gg calm2
     with fade
     "Ты просыпаешься за столом, совсем не выспавшийся. У тебя болит голова."
     "Итак, на четвертый день, едва открыв глаза, ты чувствуешь, как накопившаяся усталость давит на тебя."
@@ -85,26 +71,32 @@ label big_scene_3:
     "Ты заказываешь двойной эспрессо. Вдруг твой взгляд захватывает Павел, тот самый программист, которого ты повстречал в коворкинге несколько дней назад."
     menu:
         "Подойти к нему и расспросить насчёт игры.":
-            show gg speak_:
-                xalign 0.8
-                yalign 1.05
-            show pavel calm1:
+            show gg speak_ with moveinleft:
                 xalign 0.2
+                yalign 1.05
+            show pavel calm1 with moveinright:
+                xalign 0.8
                 yalign 1.05
             "Ты собираешься духом и подходишь к Павлу, в надежде, что тот тебе поможет"
             maincharacter "Привет! Не ожидал тебя здесь встретить, — ты пытаешься начать разговор с легкой улыбкой, надеясь, что Павел будет расположен помочь."
+               
+            show pavel calm2:
+                xalign 0.8
+                yalign 1.05
 
             pavel "О, привет! Ты как раз работаешь над тестовым заданием для нашей компании, верно? Как продвигается?"
+            
+            show gg calm2:
+                xalign 0.2
+                yalign 1.05
 
             maincharacter "Всё путём, вроде... Ну, я сюда за тем и пришёл, чтобы получить помощь, что скажешь, найдётся немного времени для столь важной для меня игры?"
 
             pavel "Эх, ну раз для тебя это так важно... Давай сюда ноутбук, посмотрим."
             if game_choice == "blue":
                 jump blue_scene_3
-            elif game_choice == "pink":
-                jump pink_scene_3
             elif game_choice == "violet":
-                jump pink_scene_3
+                jump violet_scene_3
             elif game_choice == "salat":
                 jump salat_scene_3
             elif game_choice == "yellow":
@@ -121,22 +113,38 @@ label UNDERTALE_reference_OOaAoaoAOaAAOo:
     "Теперь ты полон сил, энергичен, и готов наконец закончить эту игру!"
     play sound "audio/sounds/savepoint.mp3" 
     "{b=10}{color=#ffff00}ВЫ НАПОЛНЯЕТЕСЬ РЕШИМОСТЬЮ{/color}{/b}"
-    jump big_scene_5
+    jump big_scene_for_blue_violet_and_salat_way
 
 
 label big_scene_4:
+    show pavel calm2:
+        xalign 0.8
+        yalign 1.05
     pavel "Мгм. Теперь всё должно работать как нужно. Код, кстати очень \"грязный\". Не помешал бы рефакторинг."
 
+    show gg think_:
+        xalign 0.2
+        yalign 1.05
     maincharacter "Рефакто-что?"
 
     pavel "Рефакторинг. Видишь ли, ты БУДЕШЬ работать в команде, когда устроишься на работу."
+
+    show gg calm2:
+        xalign 0.2
+        yalign 1.05
     maincharacter "А когда ты работаешь в команде, то каждый должен с лёгкостью понимать, за что отвечает та или иная часть кода."
     maincharacter "Раздели код, сделай приятным для глаза, сделай более понятным. Думаю, НАШ босс оценит это."
 
+    show pavel calm1:
+        xalign 0.8
+        yalign 1.05
     pavel "-Так, смотрим дальше..."
     pavel "Знаешь, этой игре очень не хватает саунд-дизайна."
     pavel "Ну то есть звуков всяких, чтобы игра ощущалась более тактильной и всё такое. Звук вообще чудеса творит."
 
+    show gg calm1:
+        xalign 0.2
+        yalign 1.05
     maincharacter "-О-о-окей. Звук. А где мне его взять?"
 
     pavel "-О-о-о, давай покажу."
@@ -146,7 +154,10 @@ label big_scene_4:
     pavel "Но знаешь, у меня есть своя личная коллекция классных звуков. Я даже знаю какие подойдут именно для твоей игры!"
     
     "Павел показывает тебе звуки, которые действительно бы подошли к твоей игре - звуки прыжка, стрельбы, ходьбы."
-
+    
+    show pavel calm2:
+        xalign 0.8
+        yalign 1.05
     pavel "А теперь давай подключим эти звуки. Не бойся, это не долго."
 
     "Вы вместе подключаете звуки к проекту, это занимает всего 15 минут."
@@ -154,11 +165,6 @@ label big_scene_4:
     maincharacter "Воу! Стало гораздо лучше, спасибо!"
     if game_choice == "blue":
         pavel "Это ещё не все улучшения. У тебя есть стрельба, но нет врагов."
-        pavel "Давай по-быстрому реализуем врагов с простым алгоритмом действия, как в Марио. Можно конечно сделать сложнее, но это долго, у нас сейчас нет на это времени"
-    
-    elif game_choice == "pink":
-        pavel "Это ещё не все улучшения."
-        pavel "У тебя есть уровни, но они слишком лёгкие."
         pavel "Давай по-быстрому реализуем врагов с простым алгоритмом действия, как в Марио. Можно конечно сделать сложнее, но это долго, у нас сейчас нет на это времени"
     
     elif game_choice == "violet":
@@ -178,14 +184,20 @@ label big_scene_4:
         pavel "-Это ещё не все улучшения. У тебя есть стрельба, но нет врагов."
         pavel "Давай по-быстрому реализуем врагов с простым алгоритмом действия. Можно конечно сделать умный ИИ, но это долго, у нас сейчас нет на это времени"
     
-
+    show gg calm2:
+        xalign 0.2
+        yalign 1.05
 
     maincharacter "Я не то чтобы знаю, как это делается..."
-
+    show pavel calm1:
+        xalign 0.8
+        yalign 1.05
     pavel "Ну, не зря же ты ко мне пришёл, сейчас мы мигом всё порешаем."
     pavel "Напишем небольшой алгоритм... - говорит он, печатая при этом со скоростью света в редакторе кода."
     pavel "Теперь подключим спрайт, который, кстати, у тебя уже есть. И... готово!"
-
+    show gg calm1:
+        xalign 0.2
+        yalign 1.05
     maincharacter "У меня нет слов..."
 
     if game_choice == "blue":
@@ -196,17 +208,7 @@ label big_scene_4:
         maincharacter "Оу, да, конечно."
         "Ты заказываешь ему большой стакан капучино"
         maincharacter "Ты мне невероятно помог, спасибо тебе!"
-        jump big_scene_for_blue_pink_violet_and_salat_way
-
-    elif game_choice == "pink":
-        pavel "Ничего не говори, просто смотри и запоминай. Пригодится."
-        pavel "И вот я уже прошёл игру... Скудновато по уровням. Ну, уровни ты, надеюсь, сам дополнишь."
-        pavel "С тебя кофе, кстати, хе-хе."
-
-        maincharacter "Оу, да, конечно."
-        "Ты заказываешь ему большой стакан капучино"
-        maincharacter "Ты мне невероятно помог, спасибо тебе!"
-        jump big_scene_for_blue_pink_violet_and_salat_way
+        jump big_scene_for_blue_violet_and_salat_way
 
     elif game_choice == "violet":
         pavel "Ничего не говори, просто смотри и запоминай. Пригодится."
@@ -216,7 +218,7 @@ label big_scene_4:
         maincharacter "Оу, да, конечно."
         "Ты заказываешь ему большой стакан капучино"
         maincharacter "Ты мне невероятно помог, спасибо тебе!"
-        jump big_scene_for_blue_pink_violet_and_salat_way
+        jump big_scene_for_blue_violet_and_salat_way
 
     elif game_choice == "salat":
         pavel "Ничего не говори, просто смотри и запоминай. Пригодится."
@@ -226,7 +228,7 @@ label big_scene_4:
         maincharacter "Оу, да, конечно."
         "Ты заказываешь ему большой стакан капучино"
         maincharacter "Ты мне невероятно помог, спасибо тебе!"
-        jump big_scene_for_blue_pink_violet_and_salat_way
+        jump big_scene_for_blue_violet_and_salat_way
 
 
     elif game_choice == "yellow":
@@ -253,7 +255,7 @@ label big_scene_4:
 
     pavel "Да без проблем, рад был помочь за чашечку кофе. Увидимся на работе!"
     "Оставшуюся часть последнего дня ты решаешь провести рефакторинг кода, сделать его более читаемым, исправить некоторые баги, дополнить уровни."
-
+    jump big_scene_for_blue_violet_and_salat_way
 
 
 

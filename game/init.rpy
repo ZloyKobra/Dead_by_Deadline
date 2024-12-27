@@ -19,6 +19,7 @@ image gg calm2 = At("gg stand1", sprite_highlight("gg"))
 image gg think_ = At("gg think", sprite_highlight("gg"))
 image gg talktophone_ = At("gg talkphone", sprite_highlight("gg"))
 image gg looktophone_ = At("gg lookphone", sprite_highlight("gg"))
+image gg shock_ = At("gg shock", sprite_highlight("gg"))
 
 define gg_phone = Character("[gg_name]", kind=nvl, image="gg stand", callback=Phone_SendSound)
 define gendir_phone = Character("Гендир", kind=nvl, callback=Phone_ReceiveSound)
@@ -60,12 +61,3 @@ define audio.Daddy_Long_Legs_Surprise = "audio/music/Daddy Long-Leg's Surprise.m
 define audio.spooki_skary_coridor = "audio/music/mus_disturbing.mp3"
 define audio.boss_like_hurting_other_people = "audio/music/Silver_Lights.mp3"
 
-
-
-$ import os
-$ current_directory = os.getcwd()
-init python:
-    f = open(renpy.loader.transfn("resources/b_movie_script.txt"),"r")
-    s = f.readlines()
-    my_credits = ''.join(s)
-    f.close()

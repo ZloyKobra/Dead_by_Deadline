@@ -2,29 +2,385 @@
 errors listed below, and try again.
 
 
-File "game/scenes/green_scenes.rpy", line 177: expected statement.
-                    ЭПИЛОГ
-                          ^
+File "game/scenes/big_scenes_1.rpy", line 11: Line with id big_scene_1_70b96909 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:11
 
-File "game/scenes/green_scenes.rpy", line 179: expected statement.
-    (Ты не забрасываешь разработку видеоигр, а продолжаешь учиться и делать что-то новое.)
-                                                                                          ^
+File "game/scenes/big_scenes_1.rpy", line 12: Line with id big_scene_1_dc45de34 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:12
 
-File "game/scenes/green_scenes.rpy", line 181: expected statement.
-    (Проходит год самообучения и разработки разносортных инди-игр, которые ты делал в процессе обучения.)
-                                                                                                         ^
+File "game/scenes/big_scenes_1.rpy", line 24: Line with id big_scene_2_133d01f6 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:36
 
-File "game/scenes/green_scenes.rpy", line 183: expected statement.
-    (Со всем этим багажом ты устраиваешься в другую, менее известную компанию, где разрабатывают видеоигры, но тебе там действительно нравится: хороший коллектив, уютный офис, хорошие условия для разработки.)
-                                                                                                                                                                                                                ^
+File "game/scenes/big_scenes_1.rpy", line 26: Line with id big_scene_2_7e433a7f appears twice. The other line is game/scenes/alo_big_scene_1.rpy:38
 
-File "game/scenes/green_scenes.rpy", line 185: expected statement.
-    (Проходит время, и ты видишь, как Компания, в которую тебя не приняли в первый раз выпускает игру под названием Mecha Strike, где полностью копируют когда-то придуманный тобой концепт.)
-                                                                                                                                                                                             ^
+File "game/scenes/big_scenes_1.rpy", line 28: Line with id big_scene_2_e6fb3bb1 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:40
 
-File "game/scenes/green_scenes.rpy", line 187: expected statement.
-                     К О Н Е Ц
-                              ^
+File "game/scenes/big_scenes_1.rpy", line 29: Line with id big_scene_2_a0149058 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:41
+
+File "game/scenes/big_scenes_1.rpy", line 30: Line with id big_scene_2_5a0dc9d9 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:42
+
+File "game/scenes/big_scenes_1.rpy", line 31: Line with id big_scene_2_c70919a8 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:43
+
+File "game/scenes/big_scenes_1.rpy", line 32: Line with id big_scene_2_f7a254af appears twice. The other line is game/scenes/alo_big_scene_1.rpy:44
+
+File "game/scenes/big_scenes_1.rpy", line 34: Line with id big_scene_2_c47492b2 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:46
+
+File "game/scenes/big_scenes_1.rpy", line 35: Line with id big_scene_2_521a087f appears twice. The other line is game/scenes/alo_big_scene_1.rpy:47
+
+File "game/scenes/big_scenes_1.rpy", line 37: Line with id big_scene_2_ebc351aa appears twice. The other line is game/scenes/alo_big_scene_1.rpy:49
+
+File "game/scenes/big_scenes_1.rpy", line 38: Line with id big_scene_2_d4c7b9e9 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:50
+
+File "game/scenes/big_scenes_1.rpy", line 39: Line with id big_scene_2_5ceddfc5 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:51
+
+File "game/scenes/big_scenes_1.rpy", line 40: Line with id big_scene_2_063b470b appears twice. The other line is game/scenes/alo_big_scene_1.rpy:52
+
+File "game/scenes/big_scenes_1.rpy", line 42: Line with id big_scene_2_0c9b15d0 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:54
+
+File "game/scenes/big_scenes_1.rpy", line 60: Line with id big_scene_3_18b6eded appears twice. The other line is game/scenes/alo_big_scene_1.rpy:74
+
+File "game/scenes/big_scenes_1.rpy", line 61: Line with id big_scene_3_28b53cc6 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:75
+
+File "game/scenes/big_scenes_1.rpy", line 62: Line with id big_scene_3_dd9cc95a appears twice. The other line is game/scenes/alo_big_scene_1.rpy:76
+
+File "game/scenes/big_scenes_1.rpy", line 63: Line with id big_scene_3_305a88f5 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:77
+
+File "game/scenes/big_scenes_1.rpy", line 64: Line with id big_scene_3_1f452207 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:78
+
+File "game/scenes/big_scenes_1.rpy", line 65: Line with id big_scene_3_3acfd4e9 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:79
+
+File "game/scenes/big_scenes_1.rpy", line 70: Line with id big_scene_3_4a73e6e2 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:84
+
+File "game/scenes/big_scenes_1.rpy", line 71: Line with id big_scene_3_1e78ea99 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:85
+
+File "game/scenes/big_scenes_1.rpy", line 80: Line with id big_scene_3_b4e1410f appears twice. The other line is game/scenes/alo_big_scene_1.rpy:94
+
+File "game/scenes/big_scenes_1.rpy", line 81: Line with id big_scene_3_bec1f633 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:95
+
+File "game/scenes/big_scenes_1.rpy", line 87: Line with id big_scene_3_580b21df appears twice. The other line is game/scenes/alo_big_scene_1.rpy:97
+
+File "game/scenes/big_scenes_1.rpy", line 93: Line with id big_scene_3_772c9c48 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:99
+
+File "game/scenes/big_scenes_1.rpy", line 95: Line with id big_scene_3_18acce8c appears twice. The other line is game/scenes/alo_big_scene_1.rpy:101
+
+File "game/scenes/big_scenes_1.rpy", line 112: Line with id UNDERTALE_reference_OOaAoaoAOaAAOo_b778c2ed appears twice. The other line is game/scenes/alo_big_scene_1.rpy:120
+
+File "game/scenes/big_scenes_1.rpy", line 113: Line with id UNDERTALE_reference_OOaAoaoAOaAAOo_5cbf17ec appears twice. The other line is game/scenes/alo_big_scene_1.rpy:121
+
+File "game/scenes/big_scenes_1.rpy", line 115: Line with id UNDERTALE_reference_OOaAoaoAOaAAOo_60d52c56 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:123
+
+File "game/scenes/big_scenes_1.rpy", line 123: Line with id big_scene_4_101a905a appears twice. The other line is game/scenes/alo_big_scene_1.rpy:128
+
+File "game/scenes/big_scenes_1.rpy", line 128: Line with id big_scene_4_908ee4e5 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:130
+
+File "game/scenes/big_scenes_1.rpy", line 130: Line with id big_scene_4_aef6c561 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:132
+
+File "game/scenes/big_scenes_1.rpy", line 135: Line with id big_scene_4_2ae8e6d5 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:133
+
+File "game/scenes/big_scenes_1.rpy", line 136: Line with id big_scene_4_e0a1e395 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:134
+
+File "game/scenes/big_scenes_1.rpy", line 141: Line with id big_scene_4_14d7a89f appears twice. The other line is game/scenes/alo_big_scene_1.rpy:136
+
+File "game/scenes/big_scenes_1.rpy", line 142: Line with id big_scene_4_c18669f6 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:137
+
+File "game/scenes/big_scenes_1.rpy", line 143: Line with id big_scene_4_8c81f70e appears twice. The other line is game/scenes/alo_big_scene_1.rpy:138
+
+File "game/scenes/big_scenes_1.rpy", line 148: Line with id big_scene_4_763171fd appears twice. The other line is game/scenes/alo_big_scene_1.rpy:140
+
+File "game/scenes/big_scenes_1.rpy", line 150: Line with id big_scene_4_aeb6d8c5 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:142
+
+File "game/scenes/big_scenes_1.rpy", line 152: Line with id big_scene_4_61be008b appears twice. The other line is game/scenes/alo_big_scene_1.rpy:144
+
+File "game/scenes/big_scenes_1.rpy", line 154: Line with id big_scene_4_95c0c381 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:146
+
+File "game/scenes/big_scenes_1.rpy", line 156: Line with id big_scene_4_890e23c3 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:148
+
+File "game/scenes/big_scenes_1.rpy", line 161: Line with id big_scene_4_185c8e5c appears twice. The other line is game/scenes/alo_big_scene_1.rpy:150
+
+File "game/scenes/big_scenes_1.rpy", line 163: Line with id big_scene_4_c87504be appears twice. The other line is game/scenes/alo_big_scene_1.rpy:152
+
+File "game/scenes/big_scenes_1.rpy", line 165: Line with id big_scene_4_e9a0cdf5 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:154
+
+File "game/scenes/big_scenes_1.rpy", line 167: Line with id big_scene_4_b8781665 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:156
+
+File "game/scenes/big_scenes_1.rpy", line 168: Line with id big_scene_4_25b682b7 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:157
+
+File "game/scenes/big_scenes_1.rpy", line 171: Line with id big_scene_4_136e3609 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:160
+
+File "game/scenes/big_scenes_1.rpy", line 172: Line with id big_scene_4_8d1c50fe appears twice. The other line is game/scenes/alo_big_scene_1.rpy:161
+
+File "game/scenes/big_scenes_1.rpy", line 173: Line with id big_scene_4_25b682b7_1 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:162
+
+File "game/scenes/big_scenes_1.rpy", line 176: Line with id big_scene_4_7d6e30d9 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:170
+
+File "game/scenes/big_scenes_1.rpy", line 177: Line with id big_scene_4_2930ed3b appears twice. The other line is game/scenes/alo_big_scene_1.rpy:171
+
+File "game/scenes/big_scenes_1.rpy", line 180: Line with id big_scene_4_781edeca appears twice. The other line is game/scenes/alo_big_scene_1.rpy:174
+
+File "game/scenes/big_scenes_1.rpy", line 181: Line with id big_scene_4_6f1d6036 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:175
+
+File "game/scenes/big_scenes_1.rpy", line 184: Line with id big_scene_4_7d6e30d9_1 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:178
+
+File "game/scenes/big_scenes_1.rpy", line 185: Line with id big_scene_4_8a7dbf40 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:179
+
+File "game/scenes/big_scenes_1.rpy", line 191: Line with id big_scene_4_d3cb99bf appears twice. The other line is game/scenes/alo_big_scene_1.rpy:183
+
+File "game/scenes/big_scenes_1.rpy", line 195: Line with id big_scene_4_889f3152 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:185
+
+File "game/scenes/big_scenes_1.rpy", line 196: Line with id big_scene_4_4e216bc8 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:186
+
+File "game/scenes/big_scenes_1.rpy", line 197: Line with id big_scene_4_5a2f43ac appears twice. The other line is game/scenes/alo_big_scene_1.rpy:187
+
+File "game/scenes/big_scenes_1.rpy", line 201: Line with id big_scene_4_fe949dea appears twice. The other line is game/scenes/alo_big_scene_1.rpy:189
+
+File "game/scenes/big_scenes_1.rpy", line 204: Line with id big_scene_4_7758db61 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:192
+
+File "game/scenes/big_scenes_1.rpy", line 205: Line with id big_scene_4_af6d350b appears twice. The other line is game/scenes/alo_big_scene_1.rpy:193
+
+File "game/scenes/big_scenes_1.rpy", line 206: Line with id big_scene_4_9e56f499 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:194
+
+File "game/scenes/big_scenes_1.rpy", line 208: Line with id big_scene_4_85a920e6 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:196
+
+File "game/scenes/big_scenes_1.rpy", line 209: Line with id big_scene_4_8a33daa4 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:197
+
+File "game/scenes/big_scenes_1.rpy", line 210: Line with id big_scene_4_2411e563 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:198
+
+File "game/scenes/big_scenes_1.rpy", line 214: Line with id big_scene_4_7758db61_1 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:202
+
+File "game/scenes/big_scenes_1.rpy", line 215: Line with id big_scene_4_af6d350b_1 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:203
+
+File "game/scenes/big_scenes_1.rpy", line 216: Line with id big_scene_4_9e56f499_1 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:204
+
+File "game/scenes/big_scenes_1.rpy", line 218: Line with id big_scene_4_85a920e6_1 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:206
+
+File "game/scenes/big_scenes_1.rpy", line 219: Line with id big_scene_4_8a33daa4_1 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:207
+
+File "game/scenes/big_scenes_1.rpy", line 220: Line with id big_scene_4_2411e563_1 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:208
+
+File "game/scenes/big_scenes_1.rpy", line 224: Line with id big_scene_4_7758db61_2 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:212
+
+File "game/scenes/big_scenes_1.rpy", line 225: Line with id big_scene_4_af6d350b_2 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:213
+
+File "game/scenes/big_scenes_1.rpy", line 226: Line with id big_scene_4_9e56f499_2 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:214
+
+File "game/scenes/big_scenes_1.rpy", line 228: Line with id big_scene_4_85a920e6_2 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:216
+
+File "game/scenes/big_scenes_1.rpy", line 229: Line with id big_scene_4_8a33daa4_2 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:217
+
+File "game/scenes/big_scenes_1.rpy", line 230: Line with id big_scene_4_2411e563_2 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:218
+
+File "game/scenes/big_scenes_1.rpy", line 235: Line with id big_scene_4_7758db61_3 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:222
+
+File "game/scenes/big_scenes_1.rpy", line 236: Line with id big_scene_4_91fbf539 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:234
+
+File "game/scenes/big_scenes_1.rpy", line 237: Line with id big_scene_4_8f82f079 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:235
+
+File "game/scenes/big_scenes_1.rpy", line 238: Line with id big_scene_4_c8c96441 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:236
+
+File "game/scenes/big_scenes_1.rpy", line 240: Line with id big_scene_4_85a920e6_3 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:226
+
+File "game/scenes/big_scenes_1.rpy", line 241: Line with id big_scene_4_8a33daa4_3 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:227
+
+File "game/scenes/big_scenes_1.rpy", line 242: Line with id big_scene_4_2411e563_3 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:228
+
+File "game/scenes/big_scenes_1.rpy", line 246: Line with id big_scene_4_7758db61_4 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:233
+
+File "game/scenes/big_scenes_1.rpy", line 247: Line with id big_scene_4_88f1b89d appears twice. The other line is game/scenes/alo_big_scene_1.rpy:245
+
+File "game/scenes/big_scenes_1.rpy", line 248: Line with id big_scene_4_d6c16156 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:246
+
+File "game/scenes/big_scenes_1.rpy", line 249: Line with id big_scene_4_de4de763 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:247
+
+File "game/scenes/big_scenes_1.rpy", line 251: Line with id big_scene_4_85a920e6_4 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:238
+
+File "game/scenes/big_scenes_1.rpy", line 252: Line with id big_scene_4_8a33daa4_4 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:239
+
+File "game/scenes/big_scenes_1.rpy", line 253: Line with id big_scene_4_2411e563_4 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:240
+
+File "game/scenes/big_scenes_1.rpy", line 256: Line with id big_scene_4_f0d3f0fa appears twice. The other line is game/scenes/alo_big_scene_1.rpy:254
+
+File "game/scenes/big_scenes_1.rpy", line 257: Line with id big_scene_4_9bfd2b97 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:255
+
+File "game/scenes/big_scenes_2.rpy", line 54: Line with id big_scene_for_green_way_94adf9ce appears twice. The other line is game/scenes/alo_big_scene_1.rpy:303
+
+File "game/scenes/big_scenes_2.rpy", line 55: Line with id big_scene_for_green_way_a2f8e0c3 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:304
+
+File "game/scenes/big_scenes_2.rpy", line 57: Line with id big_scene_for_green_way_0efd3b4c appears twice. The other line is game/scenes/alo_big_scene_1.rpy:306
+
+File "game/scenes/big_scenes_2.rpy", line 60: Line with id big_scene_for_green_way_b97f282a appears twice. The other line is game/scenes/alo_big_scene_1.rpy:307
+
+File "game/scenes/big_scenes_2.rpy", line 61: Line with id big_scene_for_green_way_3e24653c appears twice. The other line is game/scenes/alo_big_scene_1.rpy:308
+
+File "game/scenes/big_scenes_2.rpy", line 62: Line with id big_scene_for_green_way_2ba20e42 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:309
+
+File "game/scenes/big_scenes_2.rpy", line 63: Line with id big_scene_for_green_way_c8e8b015 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:310
+
+File "game/scenes/big_scenes_2.rpy", line 68: Line with id big_scene_for_green_way_58f7545c appears twice. The other line is game/scenes/alo_big_scene_1.rpy:311
+
+File "game/scenes/big_scenes_2.rpy", line 70: Line with id big_scene_for_green_way_bf0c1834 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:313
+
+File "game/scenes/big_scenes_2.rpy", line 71: Line with id big_scene_for_green_way_66585ad7 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:314
+
+File "game/scenes/big_scenes_2.rpy", line 74: Line with id big_scene_for_green_way_e6dc38e7 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:315
+
+File "game/scenes/big_scenes_2.rpy", line 75: Line with id big_scene_for_green_way_93ba7257 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:316
+
+File "game/scenes/big_scenes_2.rpy", line 76: Line with id big_scene_for_green_way_1549cfb4 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:317
+
+File "game/scenes/big_scenes_2.rpy", line 77: Line with id big_scene_for_green_way_1caa3618 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:318
+
+File "game/scenes/big_scenes_2.rpy", line 78: Line with id big_scene_for_green_way_14653ed3 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:319
+
+File "game/scenes/big_scenes_2.rpy", line 80: Line with id big_scene_for_green_way_c73dec54 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:321
+
+File "game/scenes/big_scenes_2.rpy", line 83: Line with id big_scene_for_green_way_cc6eda92 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:322
+
+File "game/scenes/big_scenes_2.rpy", line 84: Line with id big_scene_for_green_way_80110671 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:323
+
+File "game/scenes/big_scenes_2.rpy", line 87: Line with id big_scene_for_green_way_149c35a4 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:324
+
+File "game/scenes/big_scenes_2.rpy", line 88: Line with id big_scene_for_green_way_005bd48d appears twice. The other line is game/scenes/alo_big_scene_1.rpy:325
+
+File "game/scenes/big_scenes_2.rpy", line 89: Line with id big_scene_for_green_way_dc887be4 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:326
+
+File "game/scenes/big_scenes_2.rpy", line 90: Line with id big_scene_for_green_way_98c160f6 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:327
+
+File "game/scenes/big_scenes_2.rpy", line 91: Line with id big_scene_for_green_way_5696a6cd appears twice. The other line is game/scenes/alo_big_scene_1.rpy:328
+
+File "game/scenes/big_scenes_2.rpy", line 92: Line with id big_scene_for_green_way_caadb087 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:329
+
+File "game/scenes/big_scenes_2.rpy", line 93: Line with id big_scene_for_green_way_612f1e8c appears twice. The other line is game/scenes/alo_big_scene_1.rpy:330
+
+File "game/scenes/big_scenes_2.rpy", line 100: Line with id big_scene_for_yellow_way_94adf9ce appears twice. The other line is game/scenes/alo_big_scene_1.rpy:337
+
+File "game/scenes/big_scenes_2.rpy", line 101: Line with id big_scene_for_yellow_way_a2f8e0c3 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:338
+
+File "game/scenes/big_scenes_2.rpy", line 103: Line with id big_scene_for_yellow_way_0efd3b4c appears twice. The other line is game/scenes/alo_big_scene_1.rpy:340
+
+File "game/scenes/big_scenes_2.rpy", line 106: Line with id big_scene_for_yellow_way_b97f282a appears twice. The other line is game/scenes/alo_big_scene_1.rpy:341
+
+File "game/scenes/big_scenes_2.rpy", line 107: Line with id big_scene_for_yellow_way_3e24653c appears twice. The other line is game/scenes/alo_big_scene_1.rpy:342
+
+File "game/scenes/big_scenes_2.rpy", line 108: Line with id big_scene_for_yellow_way_2ba20e42 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:343
+
+File "game/scenes/big_scenes_2.rpy", line 109: Line with id big_scene_for_yellow_way_c8e8b015 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:344
+
+File "game/scenes/big_scenes_2.rpy", line 110: Line with id big_scene_for_yellow_way_58f7545c appears twice. The other line is game/scenes/alo_big_scene_1.rpy:345
+
+File "game/scenes/big_scenes_2.rpy", line 113: Line with id big_scene_for_yellow_way_af3fd75d appears twice. The other line is game/scenes/alo_big_scene_1.rpy:347
+
+File "game/scenes/big_scenes_2.rpy", line 114: Line with id big_scene_for_yellow_way_367d6343 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:348
+
+File "game/scenes/big_scenes_2.rpy", line 115: Line with id big_scene_for_yellow_way_a78f5d18 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:349
+
+File "game/scenes/big_scenes_2.rpy", line 116: Line with id big_scene_for_yellow_way_929cff7d appears twice. The other line is game/scenes/alo_big_scene_1.rpy:350
+
+File "game/scenes/big_scenes_2.rpy", line 117: Line with id big_scene_for_yellow_way_446bc499 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:351
+
+File "game/scenes/big_scenes_2.rpy", line 119: Line with id big_scene_for_yellow_way_88c7d39b appears twice. The other line is game/scenes/alo_big_scene_1.rpy:353
+
+File "game/scenes/big_scenes_2.rpy", line 120: Line with id big_scene_for_yellow_way_1159170d appears twice. The other line is game/scenes/alo_big_scene_1.rpy:354
+
+File "game/scenes/big_scenes_2.rpy", line 123: Line with id big_scene_for_yellow_way_435955ca appears twice. The other line is game/scenes/alo_big_scene_1.rpy:355
+
+File "game/scenes/big_scenes_2.rpy", line 124: Line with id big_scene_for_yellow_way_82972236 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:356
+
+File "game/scenes/big_scenes_2.rpy", line 127: Line with id big_scene_for_yellow_way_172952c6 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:358
+
+File "game/scenes/big_scenes_2.rpy", line 128: Line with id big_scene_for_yellow_way_baf37588 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:359
+
+File "game/scenes/big_scenes_2.rpy", line 130: Line with id big_scene_for_yellow_way_067bb82a appears twice. The other line is game/scenes/alo_big_scene_1.rpy:361
+
+File "game/scenes/big_scenes_2.rpy", line 131: Line with id big_scene_for_yellow_way_311ab47e appears twice. The other line is game/scenes/alo_big_scene_1.rpy:362
+
+File "game/scenes/big_scenes_2.rpy", line 134: Line with id big_scene_for_yellow_way_c73dec54 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:364
+
+File "game/scenes/big_scenes_2.rpy", line 135: Line with id big_scene_for_yellow_way_cc6eda92 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:365
+
+File "game/scenes/big_scenes_2.rpy", line 136: Line with id big_scene_for_yellow_way_80110671 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:366
+
+File "game/scenes/big_scenes_2.rpy", line 137: Line with id big_scene_for_yellow_way_149c35a4 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:367
+
+File "game/scenes/big_scenes_2.rpy", line 138: Line with id big_scene_for_yellow_way_005bd48d appears twice. The other line is game/scenes/alo_big_scene_1.rpy:368
+
+File "game/scenes/big_scenes_2.rpy", line 139: Line with id big_scene_for_yellow_way_dc887be4 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:369
+
+File "game/scenes/big_scenes_2.rpy", line 140: Line with id big_scene_for_yellow_way_98c160f6 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:370
+
+File "game/scenes/big_scenes_2.rpy", line 141: Line with id big_scene_for_yellow_way_5696a6cd appears twice. The other line is game/scenes/alo_big_scene_1.rpy:371
+
+File "game/scenes/big_scenes_2.rpy", line 142: Line with id big_scene_for_yellow_way_caadb087 appears twice. The other line is game/scenes/alo_big_scene_1.rpy:372
+
+File "game/scenes/big_scenes_2.rpy", line 143: Line with id big_scene_for_yellow_way_612f1e8c appears twice. The other line is game/scenes/alo_big_scene_1.rpy:373
+
+File "game/scenes/talking_on_the_street.rpy", line 7: Line with id street_3778e2b0 appears twice. The other line is game/scenes/street.rpy:12
+
+File "game/scenes/talking_on_the_street.rpy", line 8: Line with id street_60ef51fd appears twice. The other line is game/scenes/street.rpy:13
+
+File "game/scenes/talking_on_the_street.rpy", line 9: Line with id street_9ac877b5 appears twice. The other line is game/scenes/street.rpy:14
+
+File "game/scenes/violet_scenes.rpy", line 153: Line with id pink_end_672f5cee appears twice. The other line is game/scenes/pink_scenes.rpy:107
+
+File "game/scenes/violet_scenes.rpy", line 158: Line with id pink_end_b76dc1d4 appears twice. The other line is game/scenes/pink_scenes.rpy:109
+
+File "game/scenes/violet_scenes.rpy", line 159: Line with id pink_end_a0ce368f appears twice. The other line is game/scenes/pink_scenes.rpy:110
+
+File "game/scenes/violet_scenes.rpy", line 160: Line with id pink_end_20676317 appears twice. The other line is game/scenes/pink_scenes.rpy:111
+
+File "game/scenes/violet_scenes.rpy", line 162: Line with id pink_end_cc6ad404 appears twice. The other line is game/scenes/pink_scenes.rpy:113
+
+File "game/scenes/violet_scenes.rpy", line 164: Line with id pink_end_36a7b437 appears twice. The other line is game/scenes/pink_scenes.rpy:115
+
+File "game/scenes/violet_scenes.rpy", line 169: Line with id pink_end_77a35c96 appears twice. The other line is game/scenes/pink_scenes.rpy:117
+
+File "game/scenes/violet_scenes.rpy", line 170: Line with id pink_end_67f2ac5d appears twice. The other line is game/scenes/pink_scenes.rpy:118
+
+File "game/scenes/violet_scenes.rpy", line 171: Line with id pink_end_89d30892 appears twice. The other line is game/scenes/pink_scenes.rpy:119
+
+File "game/scenes/violet_scenes.rpy", line 172: Line with id pink_end_ce495071 appears twice. The other line is game/scenes/pink_scenes.rpy:120
+
+File "game/scenes/violet_scenes.rpy", line 173: Line with id pink_end_826fbb2e appears twice. The other line is game/scenes/pink_scenes.rpy:121
+
+File "game/scenes/violet_scenes.rpy", line 174: Line with id pink_end_7b71b068 appears twice. The other line is game/scenes/pink_scenes.rpy:122
+
+File "game/scenes/violet_scenes.rpy", line 179: Line with id pink_end_b4bbb9f3 appears twice. The other line is game/scenes/pink_scenes.rpy:124
+
+File "game/scenes/violet_scenes.rpy", line 181: Line with id pink_end_24726da2 appears twice. The other line is game/scenes/pink_scenes.rpy:126
+
+File "game/scenes/violet_scenes.rpy", line 182: Line with id pink_end_360f25b1 appears twice. The other line is game/scenes/pink_scenes.rpy:127
+
+File "game/scenes/violet_scenes.rpy", line 184: Line with id pink_end_dc5d279f appears twice. The other line is game/scenes/pink_scenes.rpy:129
+
+File "game/scenes/violet_scenes.rpy", line 186: Line with id pink_end_5e917a6d appears twice. The other line is game/scenes/pink_scenes.rpy:131
+
+File "game/scenes/violet_scenes.rpy", line 188: Line with id pink_end_030bc0d4 appears twice. The other line is game/scenes/pink_scenes.rpy:133
+
+File "game/scenes/violet_scenes.rpy", line 190: Line with id pink_end_ef5ecccb appears twice. The other line is game/scenes/pink_scenes.rpy:135
+
+File "game/scenes/violet_scenes.rpy", line 192: Line with id pink_end_30dea30a appears twice. The other line is game/scenes/pink_scenes.rpy:137
+
+File "game/scenes/violet_scenes.rpy", line 193: Line with id pink_end_4fc21cdb appears twice. The other line is game/scenes/pink_scenes.rpy:138
+
+File "game/scenes/violet_scenes.rpy", line 194: Line with id pink_end_d1e85a35 appears twice. The other line is game/scenes/pink_scenes.rpy:139
+
+File "game/scenes/violet_scenes.rpy", line 195: Line with id pink_end_c67479fc appears twice. The other line is game/scenes/pink_scenes.rpy:140
+
+File "game/scenes/violet_scenes.rpy", line 200: Line with id pink_end_c13bb5b3 appears twice. The other line is game/scenes/pink_scenes.rpy:142
+
+File "game/scenes/violet_scenes.rpy", line 201: Line with id pink_end_06376284 appears twice. The other line is game/scenes/pink_scenes.rpy:143
+
+File "game/scenes/violet_scenes.rpy", line 203: Line with id pink_end_e8ebc9fc appears twice. The other line is game/scenes/pink_scenes.rpy:144
+
+File "game/scenes/violet_scenes.rpy", line 208: Line with id pink_epilog_6da033df appears twice. The other line is game/scenes/pink_scenes.rpy:149
+
+File "game/scenes/violet_scenes.rpy", line 209: Line with id pink_epilog_40924826 appears twice. The other line is game/scenes/pink_scenes.rpy:150
+
+File "game/scenes/violet_scenes.rpy", line 210: Line with id pink_epilog_91b8e7e5 appears twice. The other line is game/scenes/pink_scenes.rpy:151
+
+File "game/scenes/violet_scenes.rpy", line 211: Line with id pink_epilog_a120a2f3 appears twice. The other line is game/scenes/pink_scenes.rpy:152
+
+File "game/scenes/violet_scenes.rpy", line 212: Line with id pink_epilog_d4e40e45 appears twice. The other line is game/scenes/pink_scenes.rpy:153
+
+File "game/scenes/violet_scenes.rpy", line 213: Line with id pink_epilog_34bbdc25 appears twice. The other line is game/scenes/pink_scenes.rpy:154
+
+File "game/scenes/violet_scenes.rpy", line 214: Line with id pink_epilog_7acda046 appears twice. The other line is game/scenes/pink_scenes.rpy:155
 
 Ren'Py Version: Ren'Py 8.3.2.24090902
-Sun Dec 22 17:42:23 2024
+Sat Dec 28 00:57:36 2024
