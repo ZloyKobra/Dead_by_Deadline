@@ -8,8 +8,6 @@ label start:
     scene bg ggroom_bright with fade
     show gg calm1
 
-    # show screen button_book
-
     play music mus_morning
     voice "dictor/line1_8am.ogg"
     "{bt=100}8 утра ☠️{/bt}"

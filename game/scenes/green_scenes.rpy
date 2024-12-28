@@ -37,6 +37,8 @@ label green_scene_3:
 
 
 label green_scene_END_IS_NEAR:
+    play music boss_like_hurting_other_people fadeout 1.0
+
     show boss hands_:
         xalign 0.3
         yalign 1.05
@@ -169,13 +171,15 @@ label green_end:
     show boss calm:
         xalign 0.3
         yalign 1.05
+    stop music fadeout 1.0
+
     boss "Учитывая, что вы безответственно отнеслись к дедлайну, и потратили всего четыре дня из шести месяцев..."
     boss "При этом сделав очень сырую, но амбициозную по задумке игру в кратчайшие сроки..."
     boss "Я принимаю решение..."
     boss "Я готов принять вас на стажировку геймдизайнером, а дальше уже посмотрим, брать вас или нет."
     boss "Посмотрим, как твои амбициозные идеи могут помочь компании."
     boss "Ну, [gg_name], что скажете?"
-
+    play sound Fanfare
     show gg shock_:
         xalign 0.8
         yalign 1.05
@@ -183,9 +187,12 @@ label green_end:
     maincharacter "Попасть к вам - вот моя мечта. И она сбывается. Спасибо вам, я вас не подведу!"
 
     boss "Добро пожаловать в команду!"
+    stop sound fadeout 1.0
+
     jump green_epilog
 
 label green_epilog:
+    play sound Жорно_Жаванна_и_анекдот_про_трусы fadeout 1.0
 
     scene bg yay with fade
     "И вот ты официально стал частью команды, и теперь ты работаешь вместе с теми, кто тебе помогал и продолжает помогать до сих пор."
@@ -207,6 +214,8 @@ label swamp_end_Pu_pu_pu:
     show boss calm:
         xalign 0.3
         yalign 1.05
+    stop music fadeout 1.0
+
     boss "Потенциал? Возможно. Но у нас здесь, в компании, нет времени заниматься догадками. Мы принимаем готовые проекты или хотя бы такие, которые чётко демонстрируют вашу компетенцию."
 
     "Пауза, он нажимает на ноутбуке клавишу, игра сворачивается"

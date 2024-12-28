@@ -1,3 +1,21 @@
+label splashscreen:
+    play music "audio/music/valve-intro-sound.mp3"
+    pause(2)
+    scene nvk_valve_intro with dissolve
+    pause(1)
+
+    show text "{color=#000000}ARIVA NVK production presents...{/color}" with dissolve:
+        yalign 0.8
+
+    pause(3)
+
+    hide text with dissolve
+    with Pause(1)
+    scene black with dissolve 
+    with Pause(2)
+
+    return
+
 $ renpy.music.set_volume(0.6)
 
 
@@ -60,4 +78,8 @@ define audio.Holy_Moly_Mountain = "audio/music/Holy Moly Mountain.mp3"
 define audio.Daddy_Long_Legs_Surprise = "audio/music/Daddy Long-Leg's Surprise.mp3"
 define audio.spooki_skary_coridor = "audio/music/mus_disturbing.mp3"
 define audio.boss_like_hurting_other_people = "audio/music/Silver_Lights.mp3"
+define audio.Disturbance = "audio/music/Disturbance.mp3"
+define audio.Secunda = "audio/music/Secunda.mp3"
+define audio.Fanfare = "audio/sounds/fanfare.mp3"
+define audio.Жорно_Жаванна_и_анекдот_про_трусы = "audio/music/анекдот.mp3"
 

@@ -1,22 +1,40 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/scenes/big_scenes_1.rpy", line 211, in script
-    jump big_scene_for_blue_pink_violet_and_salat_way
-ScriptError: could not find label 'big_scene_for_blue_pink_violet_and_salat_way'.
+  File "game/scenes/blue_scenes.rpy", line 52, in script
+    play music Silver_Lights fadeout 1.0
+  File "renpy/common/000statements.rpy", line 124, in execute_play_music
+    renpy.music.play(_audio_eval(p["file"]),
+  File "renpy/common/000statements.rpy", line 33, in _audio_eval
+    return eval(expr, locals=store.audio.__dict__)
+  File "game/scenes/blue_scenes.rpy", line 52, in <module>
+    play music Silver_Lights fadeout 1.0
+NameError: name 'Silver_Lights' is not defined
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/scenes/big_scenes_1.rpy", line 211, in script
-    jump big_scene_for_blue_pink_violet_and_salat_way
-  File "C:\Users\user\OneDrive\Рабочий стол\renpy-8.3.2-sdk\renpy\ast.py", line 1699, in execute
-    rv = renpy.game.script.lookup(target)
-  File "C:\Users\user\OneDrive\Рабочий стол\renpy-8.3.2-sdk\renpy\script.py", line 1103, in lookup
-    raise ScriptError("could not find label '%s'." % str(original))
-ScriptError: could not find label 'big_scene_for_blue_pink_violet_and_salat_way'.
+  File "game/scenes/blue_scenes.rpy", line 52, in script
+    play music Silver_Lights fadeout 1.0
+  File "C:\Users\user\OneDrive\Рабочий стол\renpy-8.3.2-sdk\renpy\ast.py", line 1974, in execute
+    self.call("execute")
+  File "C:\Users\user\OneDrive\Рабочий стол\renpy-8.3.2-sdk\renpy\ast.py", line 1953, in call
+    return renpy.statements.call(method, parsed, *args, **kwargs)
+  File "C:\Users\user\OneDrive\Рабочий стол\renpy-8.3.2-sdk\renpy\statements.py", line 374, in call
+    return method(parsed, *args, **kwargs)
+  File "renpy/common/000statements.rpy", line 124, in execute_play_music
+    renpy.music.play(_audio_eval(p["file"]),
+  File "renpy/common/000statements.rpy", line 33, in _audio_eval
+    return eval(expr, locals=store.audio.__dict__)
+  File "C:\Users\user\OneDrive\Рабочий стол\renpy-8.3.2-sdk\renpy\python.py", line 1209, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "C:\Users\user\OneDrive\Рабочий стол\renpy-8.3.2-sdk\renpy\python.py", line 1202, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/scenes/blue_scenes.rpy", line 52, in <module>
+    play music Silver_Lights fadeout 1.0
+NameError: name 'Silver_Lights' is not defined
 
 Windows-10-10.0.22631 AMD64
 Ren'Py 8.3.2.24090902
 Dead by Deadline 
-Wed Dec 25 20:24:41 2024
+Sat Dec 28 13:52:30 2024

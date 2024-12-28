@@ -20,12 +20,13 @@ label big_scene_1:
         jump yellow_scene_1
 
 label big_scene_2:
-    stop music fadeout 2
     "Телефон" "*звенит*"
     show gg looktophone_
     maincharacter "М? Кто это может быть?"
     show gg talktophone_
     maincharacter "Алло?"
+    play music Disturbance fadeout 3.0
+
     "Алекс" "Привет! Это Алекс из отдела кадров. Есть небольшая новость, которую нужно до вас донести."
     "Алекс" "Видите ли, у нас тут произошла маленькая перестановка в графике."
     "Алекс" "К сожалению, наш босс решил, что прототип, который вы готовите, нужно будет предоставить раньше, чем планировалось."
@@ -57,6 +58,7 @@ label big_scene_3:
     scene bg ggroom_bright
     show gg calm2
     with fade
+    play music chill_1 fadeout 2.0
     "Ты просыпаешься за столом, совсем не выспавшийся. У тебя болит голова."
     "Итак, на четвертый день, едва открыв глаза, ты чувствуешь, как накопившаяся усталость давит на тебя."
     "Последние три дня были настоящим испытанием: работа над механиками, бесконечное тестирование, настройка спрайтов — всё это стало невыносимо тяжёлым."
@@ -71,6 +73,7 @@ label big_scene_3:
     "Ты заказываешь двойной эспрессо. Вдруг твой взгляд захватывает Павел, тот самый программист, которого ты повстречал в коворкинге несколько дней назад."
     menu:
         "Подойти к нему и расспросить насчёт игры.":
+            play music chill_2 fadeout 2
             show gg speak_ with moveinleft:
                 xalign 0.2
                 yalign 1.05
@@ -109,11 +112,18 @@ label big_scene_3:
             jump UNDERTALE_reference_OOaAoaoAOaAAOo
 
 label UNDERTALE_reference_OOaAoaoAOaAAOo:
-    "Ты расслабляешься, наслаждаешься видом из окна и, наконец, немного отдыхаешь. Тебе явно этого не хватало"
+    "Ты расслабляешься, наслажsдаешься видом из окна и, наконец, немного отдыхаешь. Тебе явно этого не хватало"
     "Теперь ты полон сил, энергичен, и готов наконец закончить эту игру!"
+    stop music
     play sound "audio/sounds/savepoint.mp3" 
     "{b=10}{color=#ffff00}ВЫ НАПОЛНЯЕТЕСЬ РЕШИМОСТЬЮ{/color}{/b}"
-    jump big_scene_for_blue_violet_and_salat_way
+    if game_choice == "blue" or game_choice == "violet" or game_choice == "salat":
+        jump big_scene_for_blue_violet_and_salat_way
+    elif game_choice == "yellow":
+        jump big_scene_for_yellow_way
+    elif game_choice == "green":
+        jump big_scene_for_green_way
+    jump big_scene_3
 
 
 label big_scene_4:

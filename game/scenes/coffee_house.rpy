@@ -21,6 +21,8 @@ init python:
     f.close()
 
 label credits:
+    stop music fadeout 1.0
+    stop sound fadeout 1.0
     scene bg end with fade
     pause 5
     # scene black with dissolve
