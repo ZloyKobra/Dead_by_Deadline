@@ -1,52 +1,32 @@
-2024-12-28 09:04:42 UTC
+2024-12-29 08:27:30 UTC
 Windows-10-10.0.22631
 Ren'Py 8.3.2.24090902
 
-Early init took 0.09s
-Loading error handling took 0.04s
-Loading script took 0.39s
-Loading save slot metadata took 0.06s
+Early init took 0.11s
+Loading error handling took 0.23s
+Loading script took 4.13s
+Loading save slot metadata took 0.08s
 Loading persistent took 0.00s
-Running init code took 0.06s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.08s
+Running init code took 0.37s
+Loading analysis data took 0.00s
+Analyze and compile ATL took 0.04s
+Reloading save slot metadata took 0.05s
 Index archives took 0.00s
-Backing up script files to 'C:\\Users\\user\\AppData\\Roaming/RenPy/backups\\UrFU_novel':
-Dump and make backups took 0.08s
+Backing up script files to 'C:\\Users\\user\\AppData\\Roaming/RenPy/backups\\Dead_by_Deadline':
+Dump and make backups took 0.06s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc took 0.07s
+Initial gc took 0.10s
 DPI scale factor: 1.500000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: b"Couldn't load nvlib." (can be ignored)
 Creating interface object took 0.00s
 Cleaning stores took 0.00s
-Init translation took 0.07s
-Build styles took 0.00s
+Init translation took 0.10s
+Build styles took 0.01s
 Load screen analysis took 0.00s
-Analyze screens took 0.01s
+Analyze screens took 0.04s
 Save screen analysis took 0.03s
-Prepare screens took 0.08s
-Save pyanalysis. took 0.02s
+Prepare screens took 0.17s
+Save pyanalysis. took 0.03s
 Save bytecode. took 0.04s
-Running _start took 0.00s
-Interface start took 0.20s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1600)
-swap interval: 1 frames
-Fullscreen mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon 780M Graphics'
-Version: b'4.6.0 Compatibility Profile Context 23.20.28.03.231124'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1600) drawable=(2560, 1600)
-Maximum texture size: 4096x4096
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.00s
-Load screen analysis took 0.03s
-Analyze screens took 0.00s
-Prepare screens took 0.00s
-Running _start took 0.00s

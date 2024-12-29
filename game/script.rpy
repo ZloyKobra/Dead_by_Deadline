@@ -1,13 +1,19 @@
 label start:
     stop music fadeout 1.0
     $ gg_name = renpy.input("Как зовут вашего персонажа?\n")
+    if gg_name.strip().lower() == "chucklenuts":
+        jump coffee_house
+    if gg_name.strip().lower() == "кепочка":
+        scene kepochka
+        play music "resources/333.ogg"
+        ''
+        jump start
     pause 1.0
     play sound "audio/sounds/day_begining.mp3"
     scene bg day_1
     pause 5.0
     scene bg ggroom_bright with fade
     show gg calm1
-
     play music mus_morning
     voice "dictor/line1_8am.ogg"
     "{bt=100}8 утра ☠️{/bt}"

@@ -20,7 +20,7 @@ label day_2_begin:
             show gg looktophone_
             with fade
             "Ты просыпаешься, однако в этот раз тебе ничего не снилось."
-            "Ты берёщь телефон в руку"
+            "Ты берёшь телефон в руку"
             stop music fadeout 2.0
             "16:00"
             show gg shock_
